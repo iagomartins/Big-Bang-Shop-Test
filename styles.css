@@ -97,16 +97,42 @@ body {
   flex-direction: column;
   font-size: 11px;
 }
-.payment-options {
-  display: flex;
-  font-size: 12px;
-  min-width: 300px;
-  justify-content: space-between;
-  align-items: center;
-}
 .institutional div a {
   color: #fff;
 }
+.payment-options {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 370px;
+}
+.site-info {
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.secure-site::before {
+  content: url(icons/lock-icon.svg);
+  margin-right: 5px;
+  height: 25px;
+  display: block;
+  float: left;
+}
+.other-options a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 13px;
+}
+.footer-copyright {
+  font-size: 12px;
+  text-align: center;
+  line-height: 12px;
+}
+
 /* Desktop */
 
 @media (min-width: 1200px) {
