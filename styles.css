@@ -155,7 +155,8 @@ body {
   }
   .square.desktop,
   .arrow.desktop,
-  .search.desktop {
+  .search.desktop,
+  .footer.desktop {
     display: block;
   }
   .menu.desktop a {
@@ -190,5 +191,103 @@ body {
     text-align: center;
     line-height: 17px;
     color: #fff;
+  }
+  .footer-up-container {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+  }
+  .footer-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer-up-container {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .institutional {
+    width: auto;
+  }
+  .institutional div {
+    margin-right: 70px;
+  }
+  .newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .newsletter.footer-container {
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-width: 500px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .newsletter input {
+    width: 371px;
+    height: 43px;
+    line-height: 43px;
+  }
+  .newsletter button {
+    height: 43px;
+    line-height: 43px;
+  }
+  .newsletter h3 {
+    font-size: 15px;
+  }
+  .footer-down-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-copyright-desktop {
+    font-size: 13px;
+    min-width: 500px;
+  }
+  .secure-site {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .site-info {
+    min-width: 450px;
+  }
+  .payment-options {
+    padding-right: 10px;
+  }
+  .desktop.banner-top {
+    display: block;
+    width: 1200px;
+    margin: 30px auto;
+    background-image: url(banners/banner-top-desktop.png);
+    height: 250px;
+  }
+  .desktop.banner-top div {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    float: right;
+    padding-right: 20px;
+  }
+  .desktop.banner-top div h2 {
+    font-size: 36px;
+    color: #000;
+    line-height: 36px;
+  }
+  .desktop.banner-top div a {
+    padding: 10px 25px;
+    background: #73a8a0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
   }
 }
